@@ -1,0 +1,12 @@
+Tutorial: 
+https://www.youtube.com/watch?v=p0bGHP-PXD4&list=PLezxY08rI3RQBYu7Cql4XNrH0L1nFpRUL&index=3
+
+
+- adaugam la form niste atribute speciale, netlify
+<form name="contact" method="POST" data-netlify="true">
++ hidden input
+<input type="hidden" name="form-name" value="contact">
+
++ spam protection filters
+atributul: netlify-honeypot="bot-field"
+<input name="bot-field">
